@@ -1,0 +1,118 @@
+body {
+    background-image: url("https://c1.wallpaperflare.com/preview/32/78/408/workspace-workplace-keyboard-work.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: rgb(11, 10, 10);
+    opacity: 1;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    width: 354px;
+    text-align: center;
+    color: white;
+    /* box-shadow: 5px 15px 5px #888888; */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #3890ee;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0c3a6c;
+}
+
+.sso-buttons {
+    margin-top: 20px;
+}
+
+.sso-buttons button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sso-buttons .google {
+    background-color: #a51a0e;
+    opacity: 1;
+    color: #fff;
+}
+
+.sso-buttons .facebook {
+    background-color: #053498;
+    opacity: 1;
+    color: #fff;
+}
+
+.sso-buttons .github {
+    background-color: #810a91;
+    opacity: 1;
+    color: #fff;
+}
+
+.sso-buttons button:hover {
+    opacity: 0.8;
+}
+
+.error-message {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
+
+.bckimg img {
+    width: 100vw;
+    height: 100vh;
+}
+.heading{
+text-align: center;
+padding: 3px;
+margin: 3px;
+color: black;
+}
+/* .mainbox{
+padding: 23px;
+/* background-image: url("https://c1.wallpaperflare.com/preview/32/78/408/workspace-workplace-keyboard-work.jpg"); */
+/* background-size: cover;
+width: 70vw;
+height: 60vh;
+border-radius: 12px;
+justify-content: center;
+align-items: center;
+display: flex; */
+/* } */
+/* "https://st5.depositphotos.com/35914836/63547/i/450/depositphotos_635479512-stock-photo-brown-wooden-wall-texture-background.jpg" */
